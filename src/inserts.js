@@ -158,6 +158,15 @@ db.libros.insertMany([
         ],
         paginas: 520
     },
+    {
+        titulo: "Don Quijote De La Mancha",
+        escritor: "Miguel de Cervantes",
+        fecha_publicacion: new Date("1605-1-1"),
+        precio: [
+            { formato: "tapa dura", precio: 14.90 },
+        ],
+        paginas: 1376
+    },
 ])
 
 db.escritores.insertMany([
@@ -182,5 +191,11 @@ db.escritores.insertMany([
         fecha_nacimiento: new Date("1892-1-3"),
         fecha_muerte: new Date("1973-9-2"),
         pais: "Estado Libre de Orange",
+    },
+    {
+        nombre: "Miguel de Cervantes",
+        fecha_nacimiento: new Date("1547-9-29"),
+        fecha_muerte: new Date("1616-4-22"),
+        pais: "España",
     },
 ])
