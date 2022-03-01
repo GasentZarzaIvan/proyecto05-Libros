@@ -116,6 +116,7 @@ El repositorio tiene la siguiente estructura:
 >
 >src
 >>inserts.js
+>>
 >>enunciados.js
 >
 >doc
@@ -123,6 +124,7 @@ El repositorio tiene la siguiente estructura:
 >
 >datos
 >>documentacionImportExport.pdf
+>>
 >>exportLibrosEscritores.json
 
 La carpeta `src` contiene dos scripts, uno para insertar los datos de la base de datos y otro con enunciados y respuestas usando el comando aggregate, `doc` contiene la documentación donde se explica la base de datos y los comandos usados, `datos` contiene una copia de la base de datos creada usando mongoexport y documentación sobre como usar los comandos mongoimport y mongoexport y `README.md` es este archivo.
