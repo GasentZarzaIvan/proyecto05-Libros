@@ -6,17 +6,17 @@ La base de datos contiene dos colecciones, una de libros y otra de escritores. L
 
 ```
 {
-        titulo: "El Camino de los Reyes",
-        coleccion: "El Archivo de las Tormentas",
-        escritor: "Brandon Sanderson",
-        fecha_publicacion: new Date("2010-8-31"),
-        precio: [
-            { formato: "tapa dura", precio: 34.90 },
-            { formato: "tapa blanda", precio: 14.20 },
-            { formato: "kindle", precio: 6.64 }
-        ],
-        paginas: 1200
-    }
+    titulo: "El Camino de los Reyes",
+    coleccion: "El Archivo de las Tormentas",
+    escritor: "Brandon Sanderson",
+    fecha_publicacion: new Date("2010-8-31"),
+    precio: [
+        { formato: "tapa dura", precio: 34.90 },
+        { formato: "tapa blanda", precio: 14.20 },
+        { formato: "kindle", precio: 6.64 }
+    ],
+    paginas: 1200
+}
 ```
 El campo colección puede no estar presente.
 
@@ -24,11 +24,11 @@ La colección escritores tiene la siguiente estructura:
 
 ```
 {
-        nombre: "Ray Bradbury",
-        fecha_nacimiento: new Date("1920-8-22"),
-        fecha_muerte: new Date("2012-6-5"),
-        pais: "Estados Unidos",
-    }
+    nombre: "Ray Bradbury",
+    fecha_nacimiento: new Date("1920-8-22"),
+    fecha_muerte: new Date("2012-6-5"),
+    pais: "Estados Unidos",
+}
 ```
 El campo fecha_muerte puede no estar presente.
 
