@@ -10,7 +10,7 @@ La base de datos contiene dos colecciones, una de libros y otra de escritores. L
     coleccion: "El Archivo de las Tormentas",
     escritor: "Brandon Sanderson",
     fecha_publicacion: new Date("2010-8-31"),
-    precio: [
+    ediciones: [
         { formato: "tapa dura", precio: 34.90 },
         { formato: "tapa blanda", precio: 14.20 },
         { formato: "kindle", precio: 6.64 }
@@ -18,7 +18,7 @@ La base de datos contiene dos colecciones, una de libros y otra de escritores. L
     paginas: 1200
 }
 ```
-El campo colección puede no estar presente.
+El campo colección puede no estar presente y los contenidos de ediciones pueden variar.
 
 La colección escritores tiene la siguiente estructura: 
 

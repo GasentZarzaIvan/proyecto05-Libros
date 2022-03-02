@@ -4,7 +4,7 @@ db.libros.insertMany([
         coleccion: "El Archivo de las Tormentas",
         escritor: "Brandon Sanderson",
         fecha_publicacion: new Date("2010-8-31"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 34.90 },
             { formato: "tapa blanda", precio: 14.20 },
             { formato: "kindle", precio: 6.64 }
@@ -15,7 +15,7 @@ db.libros.insertMany([
         titulo: "Farenheit 451",
         escritor: "Ray Bradbury",
         fecha_publicacion: new Date("1953-8-19"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 12.95 },
             { formato: "tapa blanda", precio: 10.95 },
             { formato: "kindle", precio: 3.84 }
@@ -26,7 +26,7 @@ db.libros.insertMany([
         titulo: "Cronicas marcianas",
         escritor: "Ray Bradbury",
         fecha_publicacion: new Date("1950-1-1"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 24.95 },
             { formato: "tapa blanda", precio: 7.95 },
             { formato: "kindle", precio: 6.72 }
@@ -38,7 +38,7 @@ db.libros.insertMany([
         coleccion: "El Archivo de las Tormentas",
         escritor: "Brandon Sanderson",
         fecha_publicacion: new Date("2014-3-4"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 34.90 },
             { formato: "tapa blanda", precio: 14.95 },
             { formato: "kindle", precio: 9.99 }
@@ -50,7 +50,7 @@ db.libros.insertMany([
         coleccion: "El Archivo de las Tormentas",
         escritor: "Brandon Sanderson",
         fecha_publicacion: new Date("2017-11-14"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 34.90 },
             { formato: "kindle", precio: 9.99 }
         ],
@@ -61,7 +61,7 @@ db.libros.insertMany([
         coleccion: "El Archivo de las Tormentas",
         escritor: "Brandon Sanderson",
         fecha_publicacion: new Date("2020-11-17"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 34.90 },
             { formato: "kindle", precio: 12.99 }
         ],
@@ -72,7 +72,7 @@ db.libros.insertMany([
         coleccion: "Maquinas mortales",
         escritor: "Philip Reeve",
         fecha_publicacion: new Date("2001-11-16"),
-        precio: [
+        ediciones: [
             { formato: "tapa blanda", precio: 17.95 },
             { formato: "kindle", precio: 7.99 }
         ],
@@ -83,7 +83,7 @@ db.libros.insertMany([
         coleccion: "Maquinas mortales",
         escritor: "Philip Reeve",
         fecha_publicacion: new Date("2003-9-19"),
-        precio: [
+        ediciones: [
             { formato: "tapa blanda", precio: 17.95 },
             { formato: "kindle", precio: 7.99 }
         ],
@@ -94,7 +94,7 @@ db.libros.insertMany([
         coleccion: "Maquinas mortales",
         escritor: "Philip Reeve",
         fecha_publicacion: new Date("2003-9-19"),
-        precio: [
+        ediciones: [
             { formato: "tapa blanda", precio: 17.95 },
             { formato: "kindle", precio: 7.99 }
         ],
@@ -105,7 +105,7 @@ db.libros.insertMany([
         coleccion: "Maquinas mortales",
         escritor: "Philip Reeve",
         fecha_publicacion: new Date("2005-3-18"),
-        precio: [
+        ediciones: [
             { formato: "tapa blanda", precio: 17.95 },
             { formato: "kindle", precio: 7.99 }
         ],
@@ -116,7 +116,7 @@ db.libros.insertMany([
         coleccion: "Maquinas mortales",
         escritor: "Philip Reeve",
         fecha_publicacion: new Date("2006-3-20"),
-        precio: [
+        ediciones: [
             { formato: "tapa blanda", precio: 17.95 },
             { formato: "kindle", precio: 7.99 }
         ],
@@ -127,7 +127,7 @@ db.libros.insertMany([
         coleccion: "El Señor de los Anillos",
         escritor: "J. R. R. Tolkien",
         fecha_publicacion: new Date("1954-6-29"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 20.95 },
             { formato: "tapa blanda", precio: 10.95 },
             { formato: "kindle", precio: 6.72 }
@@ -139,7 +139,7 @@ db.libros.insertMany([
         coleccion: "El Señor de los Anillos",
         escritor: "J. R. R. Tolkien",
         fecha_publicacion: new Date("1954-11-11"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 20.95 },
             { formato: "tapa blanda", precio: 10.95 },
             { formato: "kindle", precio: 4.80 }
@@ -151,7 +151,7 @@ db.libros.insertMany([
         coleccion: "El Señor de los Anillos",
         escritor: "J. R. R. Tolkien",
         fecha_publicacion: new Date("1955-8-20"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 20.95 },
             { formato: "tapa blanda", precio: 10.95 },
             { formato: "kindle", precio: 4.80 }
@@ -162,7 +162,7 @@ db.libros.insertMany([
         titulo: "Don Quijote De La Mancha",
         escritor: "Miguel de Cervantes",
         fecha_publicacion: new Date("1605-1-1"),
-        precio: [
+        ediciones: [
             { formato: "tapa dura", precio: 14.90 },
         ],
         paginas: 1376
