@@ -212,4 +212,10 @@ db.escritores.insertMany([
         fecha_nacimiento: new Date("1960-11-10"),
         pais: "Reino Unido",
     },
+    {
+        nombre: "Terry Pratchett",
+        fecha_nacimiento: new Date("1948-4-28"),
+        fecha_muerte: new Date("2015-5-22"),
+        pais: "Reino Unido",
+    },
 ])
