@@ -28,6 +28,7 @@ La colección escritores tiene la siguiente estructura:
     fecha_nacimiento: new Date("1920-8-22"),
     fecha_muerte: new Date("2012-6-5"),
     pais: "Estados Unidos",
+    premios: []
 }
 ```
 El campo fecha_muerte puede no estar presente.
