@@ -1,3 +1,4 @@
+db.libros.drop()
 db.libros.insertMany([
     {
         titulo: "El Camino de los Reyes",
@@ -90,17 +91,6 @@ db.libros.insertMany([
         paginas: 336
     },
     {
-        titulo: "El oro del depredador",
-        coleccion: "Maquinas mortales",
-        escritor: ["Philip Reeve"],
-        fecha_publicacion: new Date("2003-9-19"),
-        ediciones: [
-            { formato: "tapa blanda", precio: 17.95, disponible: false },
-            { formato: "kindle", precio: 7.99, disponible: true }
-        ],
-        paginas: 336
-    },
-    {
         titulo: "Inventos infernales",
         coleccion: "Maquinas mortales",
         escritor: ["Philip Reeve"],
@@ -147,7 +137,7 @@ db.libros.insertMany([
         paginas: 408
     },
     {
-        titulo: "Las Dos Torres",
+        titulo: "El Retorno del Rey",
         coleccion: "El Señor de los Anillos",
         escritor: ["J. R. R. Tolkien"],
         fecha_publicacion: new Date("1955-8-20"),
@@ -207,6 +197,7 @@ db.libros.insertMany([
     },
 ])
 
+db.escritores.drop()
 db.escritores.insertMany([
     {
         nombre: "Ray Bradbury",
@@ -265,3 +256,5 @@ db.escritores.insertMany([
         pais: "España",
     },
 ])
+
+db.sagas.drop()

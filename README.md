@@ -8,12 +8,12 @@ La base de datos contiene dos colecciones, una de libros y otra de escritores. L
 {
     titulo: "El Camino de los Reyes",
     coleccion: "El Archivo de las Tormentas",
-    escritor: "Brandon Sanderson",
+    escritor: ["Brandon Sanderson"],
     fecha_publicacion: new Date("2010-8-31"),
     ediciones: [
-        { formato: "tapa dura", precio: 34.90 },
-        { formato: "tapa blanda", precio: 14.20 },
-        { formato: "kindle", precio: 6.64 }
+        { formato: "tapa dura", precio: 34.90, disponible: true },
+        { formato: "tapa blanda", precio: 14.20, disponible: false },
+        { formato: "kindle", precio: 6.64, disponible: true }
     ],
     paginas: 1200
 }
@@ -28,10 +28,10 @@ La colección escritores tiene la siguiente estructura:
     fecha_nacimiento: new Date("1920-8-22"),
     fecha_muerte: new Date("2012-6-5"),
     pais: "Estados Unidos",
-    premios: []
-}
+    premios: ["Toalett de Narrativa", "Nobel de la Literatura Abstracta"]
+    }
 ```
-El campo fecha_muerte puede no estar presente.
+El campo fecha_muerte y premios pueden no estar presentes.
 
 ## Estructura
 El repositorio tiene la siguiente estructura:
