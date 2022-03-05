@@ -1,0 +1,3 @@
+mongoexport --db=<base_de_datos> --collection=<coleccion> --out=<fichero>
+mongoimport --db <base_de_datos> --collection <coleccion> --file <archivo>
+
