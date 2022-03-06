@@ -1,3 +1,17 @@
+--LOCAL--
 mongoexport --db=<base_de_datos> --collection=<coleccion> --out=<fichero>
 mongoimport --db <base_de_datos> --collection <coleccion> --file <archivo>
 
+mongoexport --db=proyecto05 --collection=libros --out=C:\Users\res00\Documents\1DAM\proyecto05\datos\libros.json
+mongoexport --db=proyecto05 --collection=escritores --out=C:\Users\res00\Documents\1DAM\proyecto05\datos\escritores.json
+
+mongoimport --db proyecto05 --collection libros --file C:\Users\res00\Documents\1DAM\proyecto05\datos\libros.json
+mongoimport --db proyecto05 --collection escritores --file C:\Users\res00\Documents\1DAM\proyecto05\datos\escritores.json
+
+--ATLAS--
+
+mongoimport --uri mongodb+srv://admin:admin@cluster0.onfef.mongodb.net/proyecto05 --collection libros --type json --file C:\Users\res00\Documents\1DAM\proyecto05\datos\libros.json
+mongoimport --uri mongodb+srv://admin:admin@cluster0.onfef.mongodb.net/proyecto05 --collection escritores --type json --file C:\Users\res00\Documents\1DAM\proyecto05\datos\escritores.json
+
+mongoexport --uri mongodb+srv://admin:admin@cluster0.onfef.mongodb.net/proyecto05 --collection libros --type json --out C:\Users\res00\Documents\1DAM\proyecto05\datos\libros.json
+mongoexport --uri mongodb+srv://admin:admin@cluster0.onfef.mongodb.net/proyecto05 --collection escritores --type json --out C:\Users\res00\Documents\1DAM\proyecto05\datos\escritores.json

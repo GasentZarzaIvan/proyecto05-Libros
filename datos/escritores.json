@@ -1,0 +1,9 @@
+{"_id":{"$oid":"6224da1a47271af32f318d80"},"nombre":"Carlos García Gual","fecha_nacimiento":{"$date":"1983-06-14T00:00:00Z"},"pais":"España","premios":["Nobel de la Literatura Abstracta"]}
+{"_id":{"$oid":"6224da1a47271af32f318d7c"},"nombre":"J. R. R. Tolkien","fecha_nacimiento":{"$date":{"$numberLong":"-2461276800000"}},"fecha_muerte":{"$date":"1973-09-02T00:00:00Z"},"pais":"Estado Libre de Orange","premios":["Serviette"]}
+{"_id":{"$oid":"6224da1a47271af32f318d7a"},"nombre":"Brandon Sanderson","fecha_nacimiento":{"$date":"1975-12-19T00:00:00Z"},"pais":"Estados Unidos","premios":["Serviette","Havlu de Fantasia y Ciencia Ficcion"]}
+{"_id":{"$oid":"6224da1a47271af32f318d7d"},"nombre":"Miguel de Cervantes","fecha_nacimiento":{"$date":{"$numberLong":"-13325212800000"}},"fecha_muerte":{"$date":{"$numberLong":"-11161497600000"}},"pais":"España","premios":["Miguel de Cervantes"]}
+{"_id":{"$oid":"6224da1a47271af32f318d79"},"nombre":"Ray Bradbury","fecha_nacimiento":{"$date":{"$numberLong":"-1557705600000"}},"fecha_muerte":{"$date":"2012-06-05T00:00:00Z"},"pais":"Estados Unidos","premios":["Toalett de Narrativa","Nobel de la Literatura Abstracta"]}
+{"_id":{"$oid":"6224da1a47271af32f318d7e"},"nombre":"Neil Gaiman","fecha_nacimiento":{"$date":{"$numberLong":"-288489600000"}},"pais":"Reino Unido","premios":["Raflar de Literatura Anglosajona","Miguel de Cervantes"]}
+{"_id":{"$oid":"6224da1a47271af32f318d7f"},"nombre":"Terry Pratchett","fecha_nacimiento":{"$date":{"$numberLong":"-684115200000"}},"fecha_muerte":{"$date":"2015-05-22T00:00:00Z"},"pais":"Reino Unido"}
+{"_id":{"$oid":"6224da1a47271af32f318d81"},"nombre":"Antonio Guzmán Guerra","fecha_nacimiento":{"$date":{"$numberLong":"-375408000000"}},"fecha_muerte":{"$date":"2022-04-22T00:00:00Z"},"pais":"España"}
+{"_id":{"$oid":"6224da1a47271af32f318d7b"},"nombre":"Philip Reeve","fecha_nacimiento":{"$date":{"$numberLong":"-121219200000"}},"pais":"Reino Unido"}
