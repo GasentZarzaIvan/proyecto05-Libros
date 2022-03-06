@@ -33,7 +33,7 @@ La colección escritores tiene la siguiente estructura:
 ```
 El campo fecha_muerte y premios pueden no estar presentes.
 
-## Estructura
+## Estructura del repositorio
 El repositorio tiene la siguiente estructura:
 >README.md
 >
