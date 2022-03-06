@@ -72,7 +72,8 @@ db.escritores.aggregate([{
 
 /*
 Queremos conocer el nombre y el precio de un libro escrito por alguien que haya nacido en 1970 o despues,
- tenga una version en kindle disponible y que cueste menos de 10€
+ tenga una version en kindle disponible y que cueste menos de 10€.
+ Queremos que aparezcan por orden de precio descendente y si tienen el mismo precio ordenado de forma alfabetica.
 */
 db.escritores.aggregate([{
         $match: {
@@ -132,6 +133,12 @@ db.escritores.aggregate([{
                     $toString: "$ediciones.precio"
                 }, " €"]
             }
+        }
+    },
+    {
+        $sort: {
+            precio: -1,
+            titulo: 1
         }
     }
 ]).pretty()
