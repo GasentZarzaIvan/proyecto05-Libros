@@ -116,5 +116,12 @@ db.libros.aggregate([{
 db.sagas.find().pretty()
 
 /*
+Debido a un fallo informático, los libros que han sido publicados a partir del 2000 por escritores que aun viven
+ o por españoles que hayan muerto antes de 1950 se han insertado a la base de datos con su disponibilidad invertida.
+*/
 
+
+/*
+Debido a la reciente entrega de los premios Nobel de la Literatura Abstracta,
+ los precios de todos los libros de autores que han recibido alguno han aumentado en un 25%.
 */
